@@ -2604,10 +2604,10 @@ ul.w3_short li {
     }
     .agile_banner_text_info {
         top: 40%;
-        left: 22.5%;
+        left: 13%;
     }
     .agile_banner_text_info h3 {
-        font-size: 4.5em;
+        font-size: 3.5em;
         letter-spacing: 3px;
     }
     .w3-button {
@@ -3543,7 +3543,7 @@ ul.w3_short li {
         width: 59%;
     }
     .agile_banner_text_info h3 {
-        font-size: 2em;
+        font-size: 24px;
         letter-spacing: 1px;
     }
     .agile_inner {
@@ -3569,7 +3569,7 @@ ul.w3_short li {
 @media(max-width:384px) {
     .agile_banner_text_info {
         top: 39%;
-        left: 9%;
+        left: 0%;
     }
     .wthree_head_section h2 {
         font-size: 1.7em;
