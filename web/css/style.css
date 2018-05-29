@@ -1199,7 +1199,6 @@ h3.agile_tittle.two {
 /*-- services --*/
 
 .services {
-    background: url(../images/medile.jpg)no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;

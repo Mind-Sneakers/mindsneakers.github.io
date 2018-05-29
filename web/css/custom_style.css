@@ -2,3 +2,12 @@
 .agile_banner_text_info{
     left: 0px;
 }*/
+#seo{
+    background: url(../images/rsc/seo_bg.jpg);
+    background-size: 100%;
+    height: 208px;
+    border-radius: 32px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+
+}
