@@ -864,7 +864,7 @@ ul#slider li:nth-child(4) {
 }
 
 h3.w3l_header.w3_agileits_header.two {
-    color: #fff;
+    color: #000;
 }
 
 .w3l_header span {
@@ -873,7 +873,7 @@ h3.w3l_header.w3_agileits_header.two {
 }
 
 h3.w3l_header.w3_agileits_header.two span {
-    color: #fff;
+    color: #989898;
 }
 
 .w3l_header:after {
@@ -1210,9 +1210,10 @@ h3.agile_tittle.two {
 
 h4.sub_service_agileits {
     color: #fff;
-    font-size: 1.5em;
+    font-size: 30px;
     letter-spacing: 1px;
     margin-bottom: 1em;
+    margin-top: 35px;
 }
 
 .agileits-button.two.service a {

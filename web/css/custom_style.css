@@ -2,12 +2,35 @@
 .agile_banner_text_info{
     left: 0px;
 }*/
-#seo{
-    background: url(../images/rsc/seo_bg.jpg);
-    background-size: 100%;
-    height: 208px;
+.service_tile{
+    height: 205px;
     border-radius: 32px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    filter: grayscale(80%);
+    margin-left: 5px;
 
+}
+.service_tile:hover{
+    filter: none;
+}
+#seo{
+    background: url(../images/rsc/seo_bg.jpg);
+    background-size: 100%;
+}
+.service{
+    color: #989898;
+}
+#writing{
+    background: url(../images/rsc/writing.webp);
+    background-size: 100%;
+}
+#digital{
+    background: url(../images/rsc/digital.png);
+    background-size: 100%;
+}
+@media (min-width:778px){
+    .service_tile{
+        width: 32%;
+    }
 }
