@@ -216,7 +216,8 @@ a.w3l_header_contact_details_agile-info_inner,
     z-index: 99;
     text-align: center;
     padding: 0em 3em;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(161, 161, 162,.3);
+    background: rgba(161, 161, 162,.3);
 }
 
 
@@ -242,12 +243,12 @@ a.w3l_header_contact_details_agile-info_inner,
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #00b7f1;
+    color: #FFC100;
     background: none;
 }
 
 .navbar-default .navbar-nav>.active>a:before {
-    background: #00b7f1;
+    background:#FFC100;
     transform: translateX(0);
     -webkit-transform: translateX(0);
     -moz-transform: translateX(0);
@@ -267,11 +268,11 @@ a.w3l_header_contact_details_agile-info_inner,
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-    color: #00b7f1;
+    color: #FFC100;
 }
 
 .navbar-default .navbar-nav>li>a:focus {
-    color: #00b7f1;
+    color: #FFC100;
     outline: none;
 }
 
@@ -297,7 +298,7 @@ nav.navbar.navbar-default {
 }
 
 a.navbar-brand i {
-    color: #00b7f1;
+    color: #FFC100;
 }
 
 .navbar-header.navbar-left {
@@ -316,8 +317,8 @@ a.navbar-brand {
     color: #fff;
     font-weight: 800;
     padding: 0px 10px;
-    border: 3px solid #00b7f1;
-    background: #00b7f1;
+    border: 3px solid #FFC100;
+    background: #FFC100;
 }
 
 .navbar-default .navbar-brand {
@@ -356,7 +357,7 @@ a.navbar-brand {
 .agile_short_dropdown>li>a:hover {
     color: #fff;
     text-decoration: none;
-    background-color: #00b7f1;
+    background-color: #FFC100;
 }
 
 .effect-3 {
@@ -368,7 +369,7 @@ a.navbar-brand {
     bottom: 0;
     width: 100%;
     height: 4px;
-    background: #00b7f1;
+    background: #FFC100;
     content: '';
     position: absolute;
     transition: transform .5s ease;
@@ -517,7 +518,7 @@ a.navbar-brand {
 
 #slider3-pager .rslides_here a {
     background: transparent;
-    border: 4px solid #00b7f1;
+    border: 4px solid #FFC100;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -o-border-radius: 50%;
@@ -790,7 +791,7 @@ ul#slider li:nth-child(4) {
 
 .agile_banner_bottom_grid_left_grid span {
     font-size: 2em;
-    color: #00b7f1;
+    color: #FFC100;
 }
 
 .w3_agileits_banner_bottom_pos_grid:hover span {
@@ -834,7 +835,7 @@ ul#slider li:nth-child(4) {
 .about_agileinfo p {
     line-height: 2em;
     margin-top: 1em;
-    color: #989898;
+    color: #fff;
     letter-spacing: 1px;
 }
 
@@ -846,7 +847,7 @@ ul#slider li:nth-child(4) {
 }
 
 #welcome {
-    background: #0e0e0e;
+    background: #60114D;
     padding: 7em 0;
 }
 
@@ -877,7 +878,7 @@ h3.w3l_header.w3_agileits_header.two span {
 }
 
 .w3l_header:after {
-    border-top: 2px solid #00b7f1;
+    border-top: 2px solid #FFC100;
     display: block;
     width: 81px;
     content: "";
@@ -1041,7 +1042,8 @@ h3.agile_tittle span {
 .mid-inner-sec span {
     font-size: 3em;
     margin-bottom: 0.5em;
-    color: #00b7f1;
+    color: #FFC100;
+    opacity:.8
 }
 
 
@@ -2334,7 +2336,7 @@ h2.typoh2 {
 
 .w3layouts_footer_grid h2 span,
 .w3layouts_footer_grid h3 span {
-    color: #00b7f1;
+    color: #FFC100;
 }
 
 .social_agileinfo li {
@@ -2361,8 +2363,8 @@ h2.typoh2 {
 }
 
 .w3_twitter:hover {
-    border: 1px solid #1da1f2;
-    background: #1da1f2;
+    border: 1px solid #00aced;
+    background: #00aced;
 }
 
 .w3_instagram:hover {
@@ -2394,7 +2396,7 @@ h2.typoh2 {
 
 .w3l_footer_nav li a:hover,
 .w3l_footer_nav li a.active {
-    color: #00b7f1;
+    color: #FFC100;
 }
 
 .w3layouts_footer_grid p {
@@ -2409,7 +2411,7 @@ p.copyright {
     letter-spacing: 2px;
     text-align: center;
     margin-top: 5em;
-    background: #0e0e13;
+    background: #821269;
     padding: 10px 0;
 }
 
@@ -2419,7 +2421,7 @@ p.copyright a {
 }
 
 p.copyright a:hover {
-    color: #00b7f1;
+    color: #FFC100;
 }
 
 .w3layouts_footer_grid form {
@@ -2629,7 +2631,7 @@ ul.w3_short li {
         font-size: 2.7em;
     }
     .f-bg-w3l {
-        background: rgba(0, 0, 0, 0.58);
+        background: #60114D;
         padding: 4em 0 4em 0;
     }
     ul#slider li:nth-child(1),
