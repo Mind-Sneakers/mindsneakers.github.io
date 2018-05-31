@@ -29,6 +29,18 @@
     background: url(../images/rsc/digital.png);
     background-size: 100%;
 }
+#logo{
+    background: url(../images/rsc/logo_bg.jpg);
+    background-size: 100%;
+}
+#website{
+    background: url(../images/rsc/web_design.png);
+    background-size: 100%;
+}
+#appDev{
+    background: url(../images/rsc/app_dev.jpg);
+    background-size: 100%;
+}
 @media (min-width:778px){
     .service_tile{
         width: 32%;
