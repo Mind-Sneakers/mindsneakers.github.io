@@ -193,7 +193,7 @@ ul.top_agile_info_ad li {
 }
 @media (min-width: 768px) {
     .navbar-nav {
-margin-top: 80px;
+margin-top: 58px;
     }
 }
 
@@ -224,6 +224,7 @@ a.w3l_header_contact_details_agile-info_inner,
     padding: 0em 3em;
     border-bottom: 1px solid rgba(161, 161, 162,.3);
     background: rgba(161, 161, 162,.3);
+    position: fixed;
 }
 
 
