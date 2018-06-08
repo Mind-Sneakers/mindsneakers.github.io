@@ -3,12 +3,14 @@
     left: 0px;
 }*/
 .service_tile{
-    height: 205px;
+    height: 183px;
     border-radius: 32px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     filter: grayscale(80%);
     margin-left: 5px;
+    animation-duration: 3s;
+    animation-delay: 2s;
 
 }
 .service_tile:hover{
@@ -45,4 +47,12 @@
     .service_tile{
         width: 32%;
     }
+}
+@media (max-width:448px){
+    .agileits_banner_bottom_left.two {
+        margin-top: 1em;
+    }
+}
+.animated{
+    animation-duration: 3s;
 }
