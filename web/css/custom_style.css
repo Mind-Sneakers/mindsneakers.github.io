@@ -14,7 +14,7 @@
 
 }
 .service_tile:hover{
-    filter: none;
+    /*filter: none;*/
 }
 #seo{
     background: url(../images/rsc/seo_bg.jpg);
@@ -55,4 +55,104 @@
 }
 .animated{
     animation-duration: 3s;
+}
+.form-agileinfo {
+    width: 100%;
+}
+.contact-middle {
+    width: 100%;
+    float: none;
+}
+contact-agile p.heading-btm-w3ls,.sevices-w3layouts p.heading-btm-w3ls{
+    color: #e7e3e3;
+}
+.contact-middle input[type="text"], .contact-middle input[type="email"], .contact-middle textarea {
+    width: 100%;
+    padding: 7px 10px;
+    font-size: 14px;
+    border: none;
+    /* background: rgba(68, 68, 68, 0.28); */
+    border-bottom: 2px solid rgba(195, 195, 195, 0.28);
+    color: #676565;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+}
+.contact-middle input[type="text"]:hover, .contact-middle input[type="email"]:hover, .contact-middle textarea:hover {
+    border-bottom: 2px solid rgba(68, 68, 68, 0.28);
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+}
+.contact-middle p {
+    color: #b1b1b1;
+    margin-bottom: 4px;
+    /* margin-left: 5px; */
+    font-size: 15px;
+}
+.contact-middle input[type="text"],.contact-middle input[type="email"] {
+    margin-bottom: 1.2em;
+}
+.input-w3ls {
+    width: 49%;
+    float: left;
+}
+.input-w3ls:nth-child(1){
+    margin-right:10px;
+}
+input[type="text"]:focus,input[type="email"]:focus,.contact-middle textarea:focus{
+    outline:none;
+}
+.contact-middle textarea {
+    height: 90px;
+    resize: none;
+    width: 100%;
+}
+textarea:focus{
+    outline:none;
+}
+.contact-middle input[type="submit"] {
+    float: none;
+    margin-top: 2em;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 25px;
+    font-size: 15px;
+    background: #00affe;
+    border: none;
+    outline:none;
+    transition: .5s ease-in;
+    -webkit-transition: .5s ease-in;
+    -moz-transition: .5s ease-in;
+    -o-transition: .5s ease-in;
+    -ms-transition: .5s ease-in;
+}
+.contact-middle input[type="submit"]:hover {
+    background: #f2d701;
+    transition: .5s ease-in;
+    -webkit-transition: .5s ease-in;
+    -moz-transition: .5s ease-in;
+    -o-transition: .5s ease-in;
+    -ms-transition: .5s ease-in;
+}
+.contact-middle p{
+    color: #fff;
+}
+.contact-middle h2{
+    font-size: 1.4em;
+    color: #fff;
+    position: relative;
+    margin-bottom: 1em;
+    letter-spacing: 4px;
+}
+.contact-middle span{
+    color: #FFC100;
+}
+#contact{
+    background: #0b0c11;
 }
