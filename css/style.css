@@ -2909,7 +2909,8 @@ ul.w3_short li {
         width: 100%;
     }
     .about_agileinfo_grid_imgs img {
-        width: 65%;
+        /*width: 65%;*/
+        width: 100%;
     }
     .mid-inner-sec {
         float: left;
